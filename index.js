@@ -438,6 +438,6 @@ app.post("/change-ride-status/:eventid", (req, res) => {
     res.sendFile(__dirname + "/login.html");
 })
 
-app.listen(3000);
+app.listen(process.enc.PORT || 3000);
 
 module.exports = app;
