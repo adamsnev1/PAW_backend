@@ -108,7 +108,7 @@ app.use(session({
 }));
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/main.html");
+  res.sendFile(__dirname + "/login.html");
 })
 
 app.get("/join_event/:id", (req, res) => {
